@@ -26,7 +26,7 @@
 ## :chart_with_upwards_trend: 진행상황
 |  | 전민주 | 이재현 | 김진형 | 
 | :---: | :---: | :---: | :---: | :---: |
-| Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+| Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |
 |Week 01|23.11.04|✅|🔺|✅|✅|
 | Week 02</br>(23.11.12) |  |  |  |
 | Week 03</br>(23.11.19) |  |  |  |
