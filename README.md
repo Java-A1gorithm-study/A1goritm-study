@@ -1,4 +1,4 @@
-# A1ggorithm Study
+# A1gorithm Study
 <table>
   <tr>
     <td>진행 기간</td>
