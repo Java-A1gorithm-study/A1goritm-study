@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td>진행 기간</td>
-    <td>2023년11월 4일 ~</td>
+    <td>2023년 11월 4일 ~</td>
   </tr>
   <tr>
     <td>스터디 장소</td>
@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <td>언어</td>
-    <td>JAVA</td>
+    <td><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
   </tr>
 </table>
 
