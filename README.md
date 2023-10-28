@@ -1,4 +1,8 @@
-#A1gorithm Study
+# A1ggorithm Study
+<table>
+  <tr>
+    <td>진행 기간</td>
+    <td>2023년11월 4일 ~</td>
   </tr>
   <tr>
     <td>스터디 장소</td>
@@ -19,11 +23,12 @@
 </table>
 
 ## :chart_with_upwards_trend: 진행상황
+|  | 전민주 | 이재현 | 김진형 | 
 |  | 전민주 | 이재현 | 김진형 | |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |
+|Week 01|23.11.04|✅|🔺|✅|✅|
 | Week 01|23.11.04|✅|🔺|✅|✅|
-| Week 01</br>(23.11.04) |  |  |  |
 | Week 02</br>(23.11.12) |  |  |  |
 | Week 03</br>(23.11.19) |  |  |  |
 | Week 04</br>(23.11.26) |  |  |  |
@@ -32,7 +37,6 @@
 | Week 07</br>(23.12.17) |  |  |  |
 | Week 08</br>(23.12.24) |  |  |  |
 </br>
-
 | 업로드 횟수 | 표기 |
 | :---: | :---: |
 | All clear | ✅ |
