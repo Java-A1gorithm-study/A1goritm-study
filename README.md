@@ -22,3 +22,22 @@
     <td>JAVA</td>
   </tr>
 </table>
+
+## :chart_with_upwards_trend: 진행상황
+|  | 전민주 | 이재현 | 김진형 | 
+| :---: | :---: | :---: | :---: | :---: |
+| Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> 
+| Week 01</br>(23.11.04) |  |  |  |
+| Week 02</br>(23.11.12) |  |  |  |
+| Week 03</br>(23.11.19) |  |  |  |
+| Week 04</br>(23.11.26) |  |  |  |
+| Week 05</br>(23.12.03) |  |  |  |
+| Week 06</br>(23.12.10) >> 시험 주간 |  |  |  |
+| Week 07</br>(23.12.17) |  |  |  |
+| Week 08</br>(23.12.24) |  |  |  |
+
+| 업로드 횟수 | 표기 |
+| :---: | :---: |
+| All clear | ✅ |
+| 성공 개수 | 1️⃣~ |
+| 0문제 | ❌ <br/>(사유) |
