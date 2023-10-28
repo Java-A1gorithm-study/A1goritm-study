@@ -22,6 +22,8 @@
   </tr>
 </table>
 
+<br/>
+
 ## :chart_with_upwards_trend: 진행상황
 
 * All clear >> ✅
