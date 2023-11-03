@@ -48,6 +48,6 @@
 ## :clipboard: 주차별 문제
 |주차|일정|문제 유형|문제|난이도|
 |:--:|:--:|:--:|:--|:--:|
-|01_week|11.04(토) 10:00|배열|1️⃣[백준 1919번](https://www.acmicpc.net/problem/1919) </br>2️⃣[백준 1475번](https://www.acmicpc.net/problem/1475) </br> |🥉2 </br> 🥈5 </br>|
+|01_week|11.04(토) 10:00|배열|1️⃣[백준 1919번](https://www.acmicpc.net/problem/1919) </br>2️⃣[백준 1475번](https://www.acmicpc.net/problem/1475) </br> |브론즈 2 </br> 실버 5 </br>|
 
 
