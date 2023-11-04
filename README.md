@@ -42,6 +42,7 @@
 | Week 06</br>(23.12.10) >> 시험 주간 |  |  |
 | Week 07</br>(23.12.17) |  |  |
 | Week 08</br>(23.12.24) |  |  |
+| Week 09</br>(23.12.31) |  |  |
 </br>
 
 
@@ -49,5 +50,14 @@
 |주차|일정|문제 유형|문제|난이도|
 |:--:|:--:|:--:|:--|:--:|
 |01_week|11.04(토) 10:00|배열|1️⃣[백준 1919번](https://www.acmicpc.net/problem/1919) </br>2️⃣[백준 1475번](https://www.acmicpc.net/problem/1475) </br> |브론즈 2 </br> 실버 5 </br>|
+|02_week|11.12(일) 10:00|BFS|1️⃣[백준 10026번](https://www.acmicpc.net/problem/10026) </br> |골드 5 </br> |
+|03_week|11.19(일) 10:00|DFS|1️⃣[백준 2583번](https://www.acmicpc.net/problem/2583) </br>|실버 1 </br>|
+|04_week|11.26(일) 10:00|그리디|1️⃣[백준 1026번](https://www.acmicpc.net/problem/1026) </br>|실버 4 </br>|
+|05_week|12.03(일) 10:00|이분탐색|1️⃣[백준 10815번](https://www.acmicpc.net/problem/10815) </br> 2️⃣[백준 1822번](https://www.acmicpc.net/problem/1822)|실버 5 </br> 실버 4 </br>|
+|06_week|12.10(일) 10:00|시험기간|| |
+|07_week|12.17(일) 10:00|우선순위|1️⃣[백준 11286번](https://www.acmicpc.net/problem/11286) </br> 2️⃣[백준 2075번](https://www.acmicpc.net/problem/2075) </br>|실버 1 </br> 실버 2 </br>|
+|08_week|12.24(일) 10:00|그래프|1️⃣[백준 11403번](https://www.acmicpc.net/problem/11403) </br> 2️⃣[백준 1389번](https://www.acmicpc.net/problem/1389) </br>|실버 1 </br> 실버 1 </br>|
+|09_week|12.31(일) 10:00|트리|1️⃣[백준 1991번](https://www.acmicpc.net/problem/1991) </br> 2️⃣[백준 1240번](https://www.acmicpc.net/problem/1240) </br>|실버 1 </br> 골드 5 </br> |
+
 
 
