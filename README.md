@@ -58,6 +58,7 @@
 |07_week|12.17(일) 10:00|우선순위|1️⃣[백준 11286번](https://www.acmicpc.net/problem/11286) </br> 2️⃣[백준 2075번](https://www.acmicpc.net/problem/2075) </br>|실버 1 </br> 실버 2 </br>|
 |08_week|12.24(일) 10:00|그래프|1️⃣[백준 11403번](https://www.acmicpc.net/problem/11403) </br> 2️⃣[백준 1389번](https://www.acmicpc.net/problem/1389) </br>|실버 1 </br> 실버 1 </br>|
 |09_week|12.31(일) 10:00|트리|1️⃣[백준 1991번](https://www.acmicpc.net/problem/1991) </br> 2️⃣[백준 1240번](https://www.acmicpc.net/problem/1240) </br>|실버 1 </br> 골드 5 </br> |
+</br>
 
 ## :pushpin: 스터디 방식
 * 스터디 당일 전까지 문제 풀어서 각자 branch에 push하기
