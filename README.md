@@ -24,7 +24,7 @@
 
 <br/>
 
-## :chart_with_upwards_trend: 진행상황
+## :chart_with_upwards_trend: 진행 상황
 
 * All clear >> ✅
 * 성공한 개수 >>  1️⃣ ~ 
@@ -59,5 +59,9 @@
 |08_week|12.24(일) 10:00|그래프|1️⃣[백준 11403번](https://www.acmicpc.net/problem/11403) </br> 2️⃣[백준 1389번](https://www.acmicpc.net/problem/1389) </br>|실버 1 </br> 실버 1 </br>|
 |09_week|12.31(일) 10:00|트리|1️⃣[백준 1991번](https://www.acmicpc.net/problem/1991) </br> 2️⃣[백준 1240번](https://www.acmicpc.net/problem/1240) </br>|실버 1 </br> 골드 5 </br> |
 
-
+## :pushpin: 스터디 방식
+* 스터디 당일 전까지 문제 풀어서 각자 branch에 push하기
+* 못풀었으면 commit 메세지에 적거나, 주석에 자세히 적기
+* 각자 코드 발표 후 피드백 해주기
+</br>
 
