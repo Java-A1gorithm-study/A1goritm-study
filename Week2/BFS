@@ -1,0 +1,28 @@
+BFS : 너비 우선 탐색
+그래프에서 모든 정점을 한 번씩 탐색하기 위한 방법
+
+탐색 방법 : 기준 정법과 인접한 정점을 무조건 먼저 다 방문
+특징 : 각 단계의 정점 사이의 방문 순서는 바뀔 수 있으나 다른 단계와 방문순서가 바뀌지는 않음
+       주로 최단거리를 구할 때 사용되는 알고리즘
+       큐를 사용해서 구현
+
+기본코드 :
+static void BFS(int n, int v, int[][] graph){
+        Queue<Integer> q = new LinkedList<>();
+        int[] visited = new int[n+1];
+        q.offer(v); //시작할 노드 큐에 넣기
+        visited[v] = 1; //방문 표시
+        System.out.print(v + " "); //출력
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            for (int j = 1; j <= n; j++) {
+                if(graph[curr][j] == 0) // 간선이 없을때
+                    continue;
+                if(visited[j] == 1) // 간선은 있는데 이미 방문한 노드일 때
+                    continue;
+                q.add(j); // 간선도 있고 아직 방문 안 한 노드일 때 큐에 넣기
+                visited[j] = 1; // 방문 표시
+                System.out.print(j + " "); //출력
+            }
+        }
+    }
