@@ -8,6 +8,17 @@ _**DFS를 가장 쉽게 설명할 수 있는 말은 '한놈만 팬다' 이고**_
 _**BFS를 가장 쉽게 설명할 수 있는 말은 '이놈패다가 저놈패는것'이다.**_
 
 
+### 그래프
+그래프를 표현하는 방법은 두 가지가 있다. 
+
+인접 행렬 VS 연결 리스트
+
+
+![image](https://github.com/Java-A1gorithm-study/A1goritm-study/assets/131960164/b9a27c9c-3288-4bf4-82a7-1b546946bceb)
+
+더 자세한 건 구글링 해보자
+
+
 ### 너비 우선 탐색 (BFS - Breadth-First Search)
 ![img](https://github.com/Java-A1gorithm-study/A1goritm-study/assets/131960164/4a478765-61da-49c7-b8dc-8b9e93258a95)
 
@@ -43,10 +54,47 @@ BFS는 방문한 노드들을 차례로 저장한 후 꺼낼 수 있는 자료 �
   - DFS와 달리 큐를 이용하여 다음에 탐색할 정점들을 저장하므로 더 큰 저장공간이 필요하다.
 
     
+### BFS 구현
+1. 정점 v 방문한다.
+2. 정점 v에 인접한 정점 중 방문하지 않은 정점을 차례로 방문하면서 큐에 넣는다.
+3. 인접한 정점 모두 방문했다면 큐에서 dqueue하여 받은 값 정점 v로 설정하고 2를 반복한다.
+4. 큐가 공백이라면 탐색 완료한 것이다.
+
+```
+static boolean[] visit;
+    //연결 리스트, 행렬 그래프 중 선택
+	static LinkedList<Integer>[] graph;
+	static int[][] graph;
+    
+// 시작 정점 v
+	public static void bfs(int v) {
+		Queue<Integer> queue = new LinkedList<>();
+		queue.add(v); //시작 정점 큐에 넣기
+		visit[v] = true; //시작 정점 방문
+		
+		while(!queue.isEmpty()) {
+			int temp = queue.poll(); 
+			System.out.println(temp);
+
+			for(int nextV : graph[temp]) {
+				if(!visit[nextV]) { 
+					queue.add(nextV);
+					visit[nextV] = true;
+				}
+			}
+		}		
+	}
+```
+
+```
+출력
+1 2 3 4 5 6 
+```
 
 
-
-
+### + Queue
+https://coding-factory.tistory.com/602  
+를 정리해보자
 
 
 
@@ -58,8 +106,11 @@ BFS는 방문한 노드들을 차례로 저장한 후 꺼낼 수 있는 자료 �
 
 
 ### 참고자료:
-https://github.com/WeareSoft/tech-interview/blob/master/contents/algorithm.md
+BFS 개념 참고: https://github.com/WeareSoft/tech-interview/blob/master/contents/algorithm.md
 
-https://currygamedev.tistory.com/10#%F-%-F%--%A-%C-%A-%EB%--%--%EB%B-%--%--%EC%-A%B-%EC%--%A-%--%ED%--%--%EC%--%---BFS%---%--Breadth-First%--Search-
+BFS 개념 참고: https://currygamedev.tistory.com/10#%F-%-F%--%A-%C-%A-%EB%--%--%EB%B-%--%--%EC%-A%B-%EC%--%A-%--%ED%--%--%EC%--%---BFS%---%--Breadth-First%--Search-
+
+자바로 BFS 구현 참고: https://velog.io/@suk13574/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Java-BFS-DFS#-bfs-%EA%B5%AC%ED%98%84---java
 
 
+Point 클래스 참고: https://blog.naver.com/whalsgh0520/221628681278
