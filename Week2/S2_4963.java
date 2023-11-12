@@ -45,7 +45,7 @@ public class S2_4963 {
                     if(visited[i][j] == 0 && adj[i][j] == 1) {
                         visited[i][j] = 1;
                         count++;
-                        q.add(new Pair(j, i));
+                        q.add(new Pair(i, j));
 
                         while (!q.isEmpty()) {
                             Pair pi = q.poll(); // 큐 맨 앞에 있는 거 꺼내서 저장 후 pop
