@@ -36,7 +36,7 @@
 | Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |
 | Week 01</br>(23.11.04) | ✅ |  |❌
 | Week 02</br>(23.11.12) | ✅ | ✅ |△ <br/>(어려워서 구글링함)
-| Week 03</br>(23.11.19) |  |  |✅
+| Week 03</br>(23.11.19) | ✅ |  |✅
 | Week 04</br>(23.11.26) |  |  |
 | Week 05</br>(23.12.03) |  |  |
 | Week 06</br>(23.12.10) >> 시험 주간 |  |  |
