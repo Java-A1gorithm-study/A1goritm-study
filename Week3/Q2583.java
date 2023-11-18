@@ -1,6 +1,7 @@
 package Week3;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Q2583 {
@@ -47,13 +48,14 @@ public class Q2583 {
 
             }
         }
+
+        Collections.sort(list);
+        System.out.println(list.size());
         for(int num : list) {
             System.out.println(num);
         }
 
-        //System.out.println(count);
-
-
+/*
         // 배열 확인용
         for(int i=0; i<M; i++){
             for(int j=0; j<N; j++){
@@ -62,12 +64,12 @@ public class Q2583 {
             System.out.println();
 
         }
-
+*/
      }
 
-    static void DFS(int x, int y) {
-        visited[x][y] = true;
-        arr[x][y] = 1;
+    static void DFS(int y, int x) {
+       visited[y][x] = true;
+        arr[y][x] = 1;
 
         int[] dirX = {0,0,-1,1};
         int[] dirY = {-1,1,0,0};
@@ -76,11 +78,11 @@ public class Q2583 {
             nowX = dirX[i] + x;
             nowY = dirY[i] + y;
 
-            if( Range_check() && visited[nowX][nowY] == false && arr[nowX][nowY] == 0) {
-                visited[nowX][nowY] = true;
-                arr[nowX][nowY] = 1;
+            if( Range_check() && visited[nowY][nowX] == false && arr[nowY][nowX] == 0) {
+                visited[nowY][nowX] = true;
+                arr[nowY][nowX] = 1;
                 count++;
-                DFS(nowX, nowY);
+                DFS(nowY, nowX);
             }
         }
     }
