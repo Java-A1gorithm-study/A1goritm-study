@@ -51,7 +51,7 @@
 |:--:|:--:|:--:|:--|:--:|
 |01_week|11.04(토) 10:00|배열|1️⃣[백준 1919번](https://www.acmicpc.net/problem/1919) </br>2️⃣[백준 1475번](https://www.acmicpc.net/problem/1475) </br> |브론즈 2 </br> 실버 5 </br>|
 |02_week|11.12(일) 10:00|BFS|과제: [백준 10026번](https://www.acmicpc.net/problem/10026) </br> 모각코: [백준 4963번](https://www.acmicpc.net/problem/4963)|골드 5 </br> 실버 2<br/> |
-|03_week|11.19(일) 10:00|DFS|1️⃣[백준 2583번](https://www.acmicpc.net/problem/2583) </br>|실버 1 </br>|
+|03_week|11.19(일) 10:00|DFS|과제: [백준 2583번](https://www.acmicpc.net/problem/2583) </br> 모각코: [백준 2644번](https://www.acmicpc.net/problem/2644)|실버 1 </br>|
 |04_week|11.26(일) 10:00|그리디|1️⃣[백준 1026번](https://www.acmicpc.net/problem/1026) </br>|실버 4 </br>|
 |05_week|12.03(일) 10:00|이분탐색|1️⃣[백준 10815번](https://www.acmicpc.net/problem/10815) </br> 2️⃣[백준 1822번](https://www.acmicpc.net/problem/1822)|실버 5 </br> 실버 4 </br>|
 |06_week|12.10(일) 10:00|시험기간|| |
