@@ -52,7 +52,7 @@
 2. 재귀로 구현하기
 
 ```
-   public boolean binarySearch(int[] arr, int n, int left, int right)
+   public static boolean binarySearch(int[] arr, int n, int left, int right)
 
    if(left > right) return false; // 재귀 탈출 조건
 
