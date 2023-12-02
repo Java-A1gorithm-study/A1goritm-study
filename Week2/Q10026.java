@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 public class Q10026 {
     //적록색약인 사람의 구역과 아닌 사람의 구역을 따로 구해줘야 함.
-    //그래프, 연결 리스트 + 인접 행렬, Point 클래스 
+    //그래프, 연결 리스트 + 인접 행렬, Point 클래스
+    // 인접 행렬보다 연결 리스트가 메모리 면에서는 더 효율적이다.
+    // 인저 행렬은 모든 배열을 다 저장해야하지만, 연결 리스트는 배열 저장할 필요없이 뭐가 연결되어 있는지만 명시해주면 되기 때문이다.
     static int n;
     static char[][] normal; // 적록색약 X
     static char[][] unnormal; // 적록색약 O
