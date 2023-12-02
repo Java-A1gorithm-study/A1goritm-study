@@ -12,7 +12,6 @@ public class S2_2644 {
             return;
         }
 
-
         isVisited[start] = true;
         int length = family.get(start).size();
         for (int i = 0; i < length; i++) {
@@ -21,7 +20,6 @@ public class S2_2644 {
                 continue;
             DFS(family, next, end, isVisited, count + 1, n);
             //isVisited[family.get(start).get(i)] = false;
-
          }
     }
     public static void main(String[] args) throws IOException{
