@@ -52,9 +52,9 @@
 2. 재귀로 구현하기
 
 ```
-   public void binarySearch(int[] arr, int n, int left, int right)
+   public boolean binarySearch(int[] arr, int n, int left, int right)
 
-   if(left > right) return 0; // 재귀 탈출 조건
+   if(left > right) return false; // 재귀 탈출 조건
 
    int mid = (left + right) / 2; //mid는 탐색 인덱스의 시작과 끝의 절반.
 
@@ -63,7 +63,7 @@
    else if (arr[mid] > n)
    return BSearchRecursive(arr, n, left, mid - 1);
    else
-   return 0;
+   return true;
 ```
 
 
