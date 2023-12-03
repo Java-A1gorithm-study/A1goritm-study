@@ -55,7 +55,7 @@
 |04_week|11.26(일) 10:00|그리디|1️⃣[백준 1026번](https://www.acmicpc.net/problem/1026) </br>|실버 4 </br>|
 |05_week|12.03(일) 10:00|이분탐색|1️⃣[백준 10815번](https://www.acmicpc.net/problem/10815) </br> 2️⃣[백준 1822번](https://www.acmicpc.net/problem/1822) </br> 모각코: [백준 1620번](https://www.acmicpc.net/problem/1620), [백준 2776번](https://www.acmicpc.net/problem/2776)|실버 5 </br> 실버 4 </br>|
 |06_week|12.10(일) 10:00|시험기간|| |
-|07_week|12.17(일) 10:00|우선순위|1️⃣[백준 11286번](https://www.acmicpc.net/problem/11286) </br> 2️⃣[백준 2075번](https://www.acmicpc.net/problem/2075) </br>|실버 1 </br> 실버 2 </br>|
+|07_week|12.17(일) 10:00|우선순위|1️⃣[백준 11286번](https://www.acmicpc.net/problem/11286) </br> 2️⃣[백준 2075번](https://www.acmicpc.net/problem/2075) </br> 도전문제: [백준 1374번](https://www.acmicpc.net/problem/1374)|실버 1 </br> 실버 2 </br>|
 |08_week|12.24(일) 10:00|그래프|1️⃣[백준 11403번](https://www.acmicpc.net/problem/11403) </br> 2️⃣[백준 1389번](https://www.acmicpc.net/problem/1389) </br>|실버 1 </br> 실버 1 </br>|
 |09_week|12.31(일) 10:00|트리|1️⃣[백준 1991번](https://www.acmicpc.net/problem/1991) </br> 2️⃣[백준 1240번](https://www.acmicpc.net/problem/1240) </br>|실버 1 </br> 골드 5 </br> |
 </br>
