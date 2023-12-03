@@ -26,7 +26,8 @@ public class S4_1620 {
         //문제 풀이
         for(int j = 0; j < qNum; j++) {
             String question = br.readLine();
-            // String 메서드의 matches 메서드를 활용하여 숫자 찾기.
+            // String 메서드의 matches 메서드를 활용하여 숫자 찾기
+            // 이분 탐색 굳이 써야할까 생각이 들었..ㅠㅠ
             if (question.matches("\\d+")) {
                 System.out.println(keyHashMap.get(Integer.parseInt(question)));
             } else {
