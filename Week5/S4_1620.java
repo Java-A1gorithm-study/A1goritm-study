@@ -9,8 +9,8 @@ import java.util.StringTokenizer;
 
 public class S4_1620 {
     public static void main(String[] args) throws IOException {
-        Map<Integer, String> keyHashMap = new HashMap<>();
-        Map<String, Integer> valueHashMap = new HashMap<>();
+        Map<Integer, String> keyHashMap = new HashMap<>(); //인덱스 찾는 hashmap
+        Map<String, Integer> valueHashMap = new HashMap<>(); //포켓몬 이름 찾는 hashmap
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st1 = new StringTokenizer(br.readLine());
         int book = Integer.parseInt(st1.nextToken());
