@@ -1,8 +1,7 @@
-package Week6;
+package Week7;
 
 import java.io.*;
 import java.util.PriorityQueue;
-import java.util.Collections;
 
 public class S1_11286 {
     public static void main(String[] args) throws IOException {
