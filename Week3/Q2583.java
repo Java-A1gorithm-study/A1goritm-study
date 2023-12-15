@@ -36,6 +36,14 @@ public class Q2583 {
                 }
             }
         }
+        // 배열 확인용
+        for(int i=0; i<M; i++){
+            for(int j=0; j<N; j++){
+                System.out.print(arr[i][j]);
+            }
+            System.out.println();
+
+        }
 
         for(int i=0; i<M; i++) { // 여기를 N으로 해줘서 ArrayIndexOutOfBoundsException 에러가 발생함
             for(int j=0; j<N; j++) {
@@ -55,7 +63,7 @@ public class Q2583 {
             System.out.println(num);
         }
 
-/*
+
         // 배열 확인용
         for(int i=0; i<M; i++){
             for(int j=0; j<N; j++){
@@ -64,7 +72,7 @@ public class Q2583 {
             System.out.println();
 
         }
-*/
+
      }
 
     static void DFS(int y, int x) {

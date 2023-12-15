@@ -17,29 +17,28 @@ public class Q1620 {
         int M = Integer.parseInt(st.nextToken());
 
 
-        for(int i=1; i<=N; i++){ // 포켓몬 읽기
+        for (int i = 1; i <= N; i++) { // 포켓몬 읽기
             String name = br.readLine();
-            HashMap1.put(i,name);
-            HashMap2.put(name,i);
+            HashMap1.put(i, name);
+            HashMap2.put(name, i);
         }
 
-
-
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        for(int i=0; i<M; i++){ // 맞춰야 하는 문제
-            String q = br.readLine();
-            try{//숫자이면 이름 적어주기
-                String name = HashMap1.get(Integer.parseInt(q));
-                bw.write(name + "\n");
-            }catch(NumberFormatException e){ // 문자열이면 인덱스 적어주기
-                Integer index = HashMap2.get(q);
-                bw.write(index + "\n");
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+            for (int j = 0; j < M; j++) { // 맞춰야 하는 문제
+                String q = br.readLine();
+                try {//숫자이면 이름 적어주기
+                    String name = HashMap1.get(Integer.parseInt(q));
+                    bw.write(name + "\n");
+                } catch (NumberFormatException e) { // 문자열이면 인덱스 적어주기
+                    Integer index = HashMap2.get(q);
+                    bw.write(index + "\n");
+                }
             }
+            bw.flush();
+            br.close();
+            bw.close();
+
+
         }
-        bw.flush();
-        br.close();
-        bw.close();
-
-
-    }
 }
+

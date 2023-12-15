@@ -1,7 +1,6 @@
 package Week4;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 import java.util.Comparator;
 import java.util.Scanner;
@@ -25,7 +24,7 @@ public class Q1026 {
         }
 
         Arrays.sort(A); // 오름차순 정렬
-        Arrays.sort(B, Comparator.reverseOrder()); // 오름차순 정렬, Comparator.reverseOrder()는 Integer 타입만 가능하다.
+        Arrays.sort(B, Comparator.reverseOrder()); // 내림차순 정렬, Comparator.reverseOrder()는 Integer 타입만 가능하다.
 
         for(int i=0; i<N;i++){
             result += A[i]*B[i];
