@@ -106,3 +106,14 @@ priorityQueueLowest.element();
 priorityQueueLowest.clear();
 ```
 
+## 심화) Comparable과 Comparator의 이해
+
+### <Comparable 인터페이스>
+
+#### 1. 정의
+
+Comparable과 Comparator 둘 다 객체를 비교할 수 있도록 만드는데 초점이 맞춰져 있다.
+
+
+### <Comparator 인터페이스>
+
