@@ -7,7 +7,6 @@ public class S4_2776 {
         int end = myNumber.length - 1;
         while(start <= end){
             int mid = (start + end) / 2;
-            //System.out.printf("%d %d %d\n", start, mid, end);
             if(myNumber[mid] < question)
                 start = mid + 1;
             else if(myNumber[mid] > question)
