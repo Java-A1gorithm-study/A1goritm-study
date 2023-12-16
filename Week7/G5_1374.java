@@ -26,9 +26,19 @@ public class G5_1374 {
             this.end = end;
         }
 
-        //
-        public int compareTo(Pair pair) {
-            return Integer.compare(this.end, pair.end); // c값, 즉 끝나는 시간을 기준으로 정렬
+        @Override
+        public int compareTo(Pair pair) { // 내가 계속 틀렸던 이유는 이 부분이었다.
+            return Integer.compare(this.start, pair.start); // 시작 시간을 기준으로 정렬해야한다.
+            // 이유를 좀 더 생각해봤다.
+            /*
+            내가 짠 알고리즘은 결국 가장 빠른 종료 시간의 강의와 새로 넣는 강의의 시작 시간을 비교하는 것이었다.
+            새로 넣는 강의의 시작 시간이 종료 시간과 같거나 뒤인 경우 이것은 한 강의실에서 수업할 수 있다고 판단한다.
+            여기에서 종료 시간을 기준으로 오름차순 정렬한다고 생각하자.
+            그렇게 하면 겹치지 않도록 최대한 많은 강의를 들을 수는 있겠지만
+            최소한의 강의실을 구하는 방법은 아닐 것이다.
+            라고 하지만 반례를 찾기가 쉽지 않네..
+            이건 스터디 때 얘기해보면 좋을 거 같다.
+             */
         }
     }
     public static void main(String[] args) throws IOException {
@@ -46,7 +56,7 @@ public class G5_1374 {
             lecture[i] = new Pair(start, end);
         }
 
-        //그리디 알고리즘. 종료 시간이 빠른 거부터 정렬
+        // compareTo에서 작성했던 기준. 시작 시간을 기준으로 정렬한다.
         Arrays.sort(lecture);
 
         //lecture 출력해보기
@@ -59,7 +69,7 @@ public class G5_1374 {
         priorityQueue.add(lecture[0].end);
 
         for(int i = 1; i < N; i++) { // 일단 강의 하나 집어넣고 반복문 돌리는거라 인덱스 1번부터 돌아야함.
-            if(!priorityQueue.isEmpty() && priorityQueue.peek() <= lecture[i].start) {
+            if(priorityQueue.peek() <= lecture[i].start) {
                 // 넣으려는 강의의 시작 시간이 현재 강의실에 들어가 있는 강의의 종료 시간보다 느리다. 즉 겹치지 않는다.
                 // 그러면 같은 강의실에서 강의 진행할 수 있다. 어쩌피 나는 이 우선순위 큐의 크기를 답으로 낼거라서
                 // 기존에 들어가있는 강의를 뺀다.
