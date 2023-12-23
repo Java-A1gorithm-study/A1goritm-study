@@ -43,7 +43,7 @@ public class G5_1374 {
         int max = 0;
 
         for (int i = 0; i < n; i++) {
-            while(!pq.isEmpty() && pq.peek() <= classes.get(i).start)
+            if(!pq.isEmpty() && pq.peek() <= classes.get(i).start)
                 pq.poll();
             pq.add(classes.get(i).end);
             max = Math.max(max, pq.size());
