@@ -3,7 +3,7 @@ package Week8;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Q1389 {
+public class S1_1389 {
 
     static final int INF = 987654321;
 
