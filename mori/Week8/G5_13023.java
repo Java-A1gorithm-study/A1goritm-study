@@ -1,4 +1,4 @@
-package Week8;
+package mori.Week8;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.StringTokenizer;

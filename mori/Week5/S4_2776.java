@@ -1,7 +1,6 @@
-package Week5;
+package mori.Week5;
 
 import java.io.*;
-import java.nio.Buffer;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 

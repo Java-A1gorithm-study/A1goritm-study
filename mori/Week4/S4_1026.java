@@ -1,4 +1,4 @@
-package Week4;
+package mori.Week4;
 
 import java.util.Arrays;
 import java.util.Scanner;

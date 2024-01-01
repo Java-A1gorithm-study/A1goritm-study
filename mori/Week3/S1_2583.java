@@ -1,4 +1,4 @@
-package Week3;
+package mori.Week3;
 
 import java.util.*;
 

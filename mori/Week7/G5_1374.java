@@ -1,4 +1,4 @@
-package Week7;
+package mori.Week7;
 
 import java.io.*;
 import java.util.Arrays;
