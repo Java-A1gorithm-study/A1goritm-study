@@ -35,14 +35,14 @@
 | :---: | :---: | :---: | :---: | :---: |
 | Language | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"> |
 | Week 01</br>(23.11.04) | ✅ |  |❌
-| Week 02</br>(23.11.12) | ✅ |  |△ <br/>(어려워서 구글링함)
-| Week 03</br>(23.11.19) |  |  |
-| Week 04</br>(23.11.26) |  |  |
-| Week 05</br>(23.12.03) |  |  |
+| Week 02</br>(23.11.12) | ✅ | ✅ |△ <br/>(어려워서 구글링함)
+| Week 03</br>(23.11.19) | ✅ | ✅ |✅
+| Week 04</br>(23.11.26) | ✅ | ✅ |✅
+| Week 05</br>(23.12.03) | ✅ | ✅ |❌<br/>(팀플때문에...🥲)
 | Week 06</br>(23.12.10) >> 시험 주간 |  |  |
-| Week 07</br>(23.12.17) |  |  |
-| Week 08</br>(23.12.24) |  |  |
-| Week 09</br>(23.12.31) |  |  |
+| Week 07</br>(23.12.17) | ✅ | ✅ |✅ <br/>(기본 문제만 성공)
+| Week 08</br>(23.12.24) | ✅ | ✅ |✅
+| Week 09</br>(23.12.31) | ✅ |  |△
 </br>
 
 
@@ -50,20 +50,21 @@
 |주차|일정|문제 유형|문제|난이도|
 |:--:|:--:|:--:|:--|:--:|
 |01_week|11.04(토) 10:00|배열|1️⃣[백준 1919번](https://www.acmicpc.net/problem/1919) </br>2️⃣[백준 1475번](https://www.acmicpc.net/problem/1475) </br> |브론즈 2 </br> 실버 5 </br>|
-|02_week|11.12(일) 10:00|BFS|1️⃣[백준 10026번](https://www.acmicpc.net/problem/10026) </br> |골드 5 </br> |
-|03_week|11.19(일) 10:00|DFS|1️⃣[백준 2583번](https://www.acmicpc.net/problem/2583) </br>|실버 1 </br>|
+|02_week|11.12(일) 10:00|BFS|과제: [백준 10026번](https://www.acmicpc.net/problem/10026) </br> 모각코: [백준 4963번](https://www.acmicpc.net/problem/4963)|골드 5 </br> 실버 2<br/> |
+|03_week|11.19(일) 10:00|DFS|과제: [백준 2583번](https://www.acmicpc.net/problem/2583) </br> 모각코: [백준 2644번](https://www.acmicpc.net/problem/2644)|실버 1 </br>|
 |04_week|11.26(일) 10:00|그리디|1️⃣[백준 1026번](https://www.acmicpc.net/problem/1026) </br>|실버 4 </br>|
-|05_week|12.03(일) 10:00|이분탐색|1️⃣[백준 10815번](https://www.acmicpc.net/problem/10815) </br> 2️⃣[백준 1822번](https://www.acmicpc.net/problem/1822)|실버 5 </br> 실버 4 </br>|
+|05_week|12.03(일) 10:00|이분탐색|1️⃣[백준 10815번](https://www.acmicpc.net/problem/10815) </br> 2️⃣[백준 1822번](https://www.acmicpc.net/problem/1822) </br> 모각코: [백준 1620번](https://www.acmicpc.net/problem/1620), [백준 2776번](https://www.acmicpc.net/problem/2776)|실버 5 </br> 실버 4 </br>|
 |06_week|12.10(일) 10:00|시험기간|| |
-|07_week|12.17(일) 10:00|우선순위|1️⃣[백준 11286번](https://www.acmicpc.net/problem/11286) </br> 2️⃣[백준 2075번](https://www.acmicpc.net/problem/2075) </br>|실버 1 </br> 실버 2 </br>|
-|08_week|12.24(일) 10:00|그래프|1️⃣[백준 11403번](https://www.acmicpc.net/problem/11403) </br> 2️⃣[백준 1389번](https://www.acmicpc.net/problem/1389) </br>|실버 1 </br> 실버 1 </br>|
-|09_week|12.31(일) 10:00|트리|1️⃣[백준 1991번](https://www.acmicpc.net/problem/1991) </br> 2️⃣[백준 1240번](https://www.acmicpc.net/problem/1240) </br>|실버 1 </br> 골드 5 </br> |
+|07_week|12.17(일) 10:00|우선순위|1️⃣[백준 11286번](https://www.acmicpc.net/problem/11286) </br> 2️⃣[백준 2075번](https://www.acmicpc.net/problem/2075) </br> 도전문제: [백준 1374번](https://www.acmicpc.net/problem/1374)|실버 1 </br> 실버 2 </br>|
+|08_week|12.24(일) 10:00|그래프|1️⃣[백준 11403번](https://www.acmicpc.net/problem/11403) </br> 2️⃣[백준 1389번](https://www.acmicpc.net/problem/1389) </br> 도전문제: [백준 5014번](https://www.acmicpc.net/problem/5014)|실버 1 </br> 실버 1 </br> 실버 1|
+|09_week|12.31(일) 10:00|트리|1️⃣[백준 1991번](https://www.acmicpc.net/problem/1991) </br> 2️⃣[백준 1240번](https://www.acmicpc.net/problem/1240) </br> 도전문제: [백준 1967번](https://www.acmicpc.net/problem/1967)|실버 1 </br> 골드 5 </br> 골드 4|
 </br>
 
 ## :pushpin: 스터디 방식
 * 스터디 당일 전까지 문제 풀어서 각자 branch에 push하기
+* 스터디 당일 각자 코드 리뷰, 피드백하기
+* 스터디 당일 만나서 1문제 푼 뒤 리뷰, 피드백
 * 매주 진행 상황 각자 업데이트하기
 * 못풀었으면 commit 메세지에 적거나, 주석에 자세히 적기
-* 각자 코드 발표 후 피드백 해주기 >> 공통 브랜치 하나 파서 거기에 PR 날리고, 각자 피드백을 달아주는 방식은 어떤가요?? + 커밋 메시지 규칙도 정해야 함
 </br>
 
